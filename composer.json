@@ -1,0 +1,29 @@
+{
+    "name": "rinjax/google-api",
+    "description": "helper package for working with google resources through the google API.",
+    "authors": [
+        {
+            "name": "Rinjax",
+            "email": "steve@encara.co.uk"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Rinjax\\GoogleAPI\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rinjax\\GoogleAPI\\GoogleAPIServiceProvider"
+            ]
+        }
+    },
+
+    "minimum-stability": "dev"
+}
